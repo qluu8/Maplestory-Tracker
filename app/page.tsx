@@ -1,8 +1,13 @@
+import Sidebar from "./components/sidebar";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Maple Tracker</h1>
-      <p>Track your characters, bosses, dailies, and weeklies.</p>
+    <main className="app-layout">
+      <Sidebar />
+      <h1>Character Roster</h1>
+      <div className="character-grid">
+        
+      </div>
     </main>
   );
 }
